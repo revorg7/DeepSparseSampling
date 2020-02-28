@@ -66,7 +66,7 @@ The results from experiments are then stored in SAVE_PATH_RAND folder, which can
 
 * The whole exercise of selecting bsuite library and Deepsea environment was to demonstrate the reusability of our implementation, as well as reproducibility of DSS's advantage over current SOTA.
 
-* On note of comparision to SOTA, it has been noted in "Making Sense of Reinforcement Learning and Probabilistic Inference, ICLR 2020" that TS, K-learning and BDQN fair extremely similar in practice. And although not directly comparable, DSS Regret performance is shown here to be better than TS and BDQN for discrete grid-world environments (upto 20x20 atleast).
+* On note of comparison to SOTA, it has been noted in "Making Sense of Reinforcement Learning and Probabilistic Inference, ICLR 2020" that TS, K-learning and BDQN fair extremely similar in practice. And although not directly comparable, DSS Regret performance is shown here to be better than TS and BDQN for discrete grid-world environments (upto 20x20 atleast).
 
 ## Cite
 
