@@ -1,10 +1,10 @@
 # PYTHON API for the paper "Bayesian Reinforcement Learning via Deep,Sparse Sampling, AISTATS 2020"
 
 * This code serves as Python API for using the original c++ implementation used in the paper. 
-* The original c++ implementation of the DSS algorithm as described in the paper, is part of a large Bayesian reinforcement learning library (Dimitrakakis, Christos, Tziortziotis, Nikolaos, and Tossou, Aristide. Beliefbox: A framework for statistical methods in sequential decision making. http://code.google.com/p/beliefbox/, 2007). 
+* The original c++ implementation of the DSS algorithm as described in the paper, is part of a larger Bayesian reinforcement learning library (Dimitrakakis, Christos, Tziortziotis, Nikolaos, and Tossou, Aristide. Beliefbox: A framework for statistical methods in sequential decision making. http://code.google.com/p/beliefbox/, 2007). 
 * The DSS algorithm is published under the header "TreeBRLPolicy.h" in algorithms folder of author's own fork (https://github.com/revorg7/beliefbox).
 * To target larger audience, by using Pybind11 (Jakob W, Rhinelander J, Moldovan D. pybind11–Seamless operability between C++ 11 and Python.), the author provides compiled shared library (.so) which can be imported directly from standard(CPython) python3 in Linux systems (tested Python 3.6.9, Ubuntu 18.04.1).
-* This API was used in conjuction with Bsuite environment API by Deepmind (Osband, Ian, et al. "Behaviour suite for reinforcement learning." arXiv preprint arXiv:1908.03568 (2019).) to draw the Regret plots comparing DSS to BDQN (Bayesian DQN) and TS (Thompson sampling) in Appendix-D of our submission (cf. supplementary file).
+* This API was used in conjuction with Bsuite environment API by Deepmind (Osband, Ian, et al. "Behaviour suite for reinforcement learning." arXiv preprint arXiv:1908.03568 (2019).) to draw the Regret plots comparing DSS to BDQN (Bootstrapped DQN) and TS (Thompson sampling) in Appendix-D of our submission (cf. supplementary file).
 * One is always free to reproduce the main results of the paper by directly using the C++ implementation of beliefbox, which also implements various RL environments.
 
 ## Getting Started
@@ -76,7 +76,7 @@ You can cite "Grover, D., Basu, D., & Dimitrakakis, C. (2019). Bayesian Reinforc
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+## References
 
 * Dimitrakakis, Christos, Tziortziotis, Nikolaos, and Tossou, Aristide. Beliefbox: A framework for statistical methods in sequential decision making. http://code.google.com/p/beliefbox/, 2007.
 * Jakob W, Rhinelander J, Moldovan D. pybind11–Seamless operability between C++ 11 and Python.
